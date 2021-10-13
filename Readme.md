@@ -1,12 +1,12 @@
 # Adv Auto Filter Bot V2
 
 <p align="center">
-  <a href="https://github.com/LXR-YOUTUBER-AMAL/Auto-Filter-Bot-V2/stargazers">
+  <a href="https://github.com/botfilters/filmmania/Auto-Filter-Bot-V2/stargazers">
     <img src="https://img.shields.io/github/stars/LXR-YOUTUBER-AMAL/Auto-Filter-Bot-V2?style=social">
 
   </a>
   
-  <a href="https://github.com/LXR-YOUTUBER-AMAL/Auto-Filter-Bot-V2/fork">
+  <a href="https://github.com/botfilters/filmmania/Auto-Filter-Bot-V2/fork">
     <img src="https://img.shields.io/github/forks/LXR-YOUTUBER-AMAL/Auto-Filter-Bot-V2?label=Fork&style=social">
 
   </a>  
@@ -21,8 +21,12 @@ __Just Sent Any Text As Query It Will Search For All Connected Chat's Files In I
 
 **__How To Use Me!?__**
 
-* -> Add me to any group and make me admin<br>
-* -> Add me to your channel as admin with full previlages
+* -> 1 join my group 👉🏿@FM_FilmMania<br>
+* -> 2 search any movie
+* -> 3 you will give some file for your request
+* -> 4 you select a file 
+* -> 5 press The start button
+
 
 **Bot Commands (Works Only In Groups) :**
 
@@ -68,12 +72,12 @@ InlineKeyboardMarkup(buttons)
 ## Deploy
 You can deploy this bot anywhere.
 
-<i>**[Watch Deploying Tutorial...](https://youtube.com/channel/UCqRmM0N9Z-7bBiTqJsfFWwg)**</i>
+
 
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/LXR-YOUTUBER-AMAL/Auto-Filter-Bot-V2/tree/main">
+<a href="https://heroku.com/deploy?template=https://github.com/botfilters/filmmania/tree/main">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -82,7 +86,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/LXR-YOUTUBER-AMAL/Auto-Filter-Bot-V2
+git clone https://github.com/botfilters/filmmania
 cd Auto-Filter-Bot-V2
 pip3 install -r requirements.txt
 # Change The Vars Of bot/__init__.py File Accordingly
@@ -92,14 +96,14 @@ python3 -m bot
 </details>
 
 ## Support   
-Join Our [Telegram Group](https://www.telegram.dog/LXRBOTSGROUP) For Support/Assistance And Our [Channel](https://www.telegram.dog/LXRBOTSGROUP) For Updates.   
+Join Our [Telegram Group](https://t.me/FM_FilmMania) For Support/Assistance And Our [Channel](https://t.me/FM_NEW_MOVIES) For Updates.   
    
 Report Bugs, Give Feature Requests There..   
 Do Fork And Star The Repository If You Liked It.
 
 ## Disclaimer
-[![GNU Affero General Public License v3.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-Licensed under [GNU AGPL v3.0.](https://github.com/LXR-YOUTUBER-AMAL/Auto-Filter-Bot-V2/blob/main/LICENSE)
+[![GNU Affero General Public License v3.0](https://telegra.ph/file/e272b278eefac3739d0b4.jpg)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
+Licensed under [GNU AGPL v3.0.](https://github.com/botfilters/filmmania)
 Selling The Codes To Other People For Money Is *Strictly Prohibited*.
 
 
