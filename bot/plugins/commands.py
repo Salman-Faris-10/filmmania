@@ -28,14 +28,14 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption = f" {file_name} \n @FM_NEW_MOVIES",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/FM_NEW_MOVIES"
+                                    '🖇️ Join Our Main Channel 🖇️', url="https://t.me/FM_NEW_MOVIES"
                                 )
                         ]
                     ]
@@ -47,7 +47,7 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers👽', url='https://t.me/FM_NEW_MOVIES'),
+        InlineKeyboardButton('🖇️ Join Our Main Channel 🖇️', url='https://t.me/FM_NEW_MOVIES'),
         InlineKeyboardButton('Source Code 📄', url ='https://github.com/botfilters/filmmania')
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/FM_NEW_MOVIES')
