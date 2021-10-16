@@ -580,7 +580,7 @@ async def cb_disconnect(bot, update: CallbackQuery):
     remove_active = await db.del_active(chat_id, int(channel_id))
     
     if not remove_active:
-        await update.answer("Couldnt Full Fill YOur Request...\n Report This @LXRBOTSGROUP Along With Bot's Log", show_alert=True)
+        await update.answer("Couldnt Full Fill YOur Request...\n Report This @FM_Admin_owner Along With Bot's Log", show_alert=True)
         return
     
     text= f"<i>Sucessfully Disconnected From</i> <code>{channel_name}</code>\n"
@@ -953,7 +953,7 @@ async def cb_config(bot, update: CallbackQuery):
     mr_count = settings["configs"]["max_per_page"]
     show_invite = settings["configs"]["show_invite_link"]
     pm_file_chat  = settings["configs"].get("pm_fchat", False)
-    accuracy_point = settings["configs"].get("accuracy", 0.80)
+    accuracy_point = settings["configs"].get("accuracy", 0.55)
     
     text=f"<i><b>Configure Your <u><code>{chat_name}</code></u> Group's Filter Settings...</b></i>\n"
     
@@ -1481,7 +1481,7 @@ async def cb_set(bot, update: CallbackQuery):
     
     prev = await db.find_chat(chat_id)
 
-    accuracy = float(prev["configs"].get("accuracy", 0.80))
+    accuracy = float(prev["configs"].get("accuracy", 0.55))
     max_pages = int(prev["configs"].get("max_pages"))
     max_results = int(prev["configs"].get("max_results"))
     max_per_page = int(prev["configs"].get("max_per_page"))
