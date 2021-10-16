@@ -194,13 +194,13 @@ async def cb_settings(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    "🛠️ Configure 🛠️", callback_data=f"config({chat_id})"
+                    "⚙️🔧 Configure 🔧⚙️", callback_data=f"config({chat_id})"
                 )
         ], 
         [
             InlineKeyboardButton
                 (
-                    "Status", callback_data=f"status({chat_id})"
+                    "📊 Status 📊", callback_data=f"status({chat_id})"
                 ),
             
             InlineKeyboardButton
@@ -1142,7 +1142,7 @@ async def cb_max_page(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    "4 Pages", callback_data=f"set(pages|4|{chat_id}|{count})"
+                    "5 Pages", callback_data=f"set(pages|4|{chat_id}|{count})"
                 )
         ],
         [
@@ -1412,6 +1412,12 @@ async def cb_accuracy(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
+                    "70 %", callback_data=f"set(accuracy|0.65|{chat_id}|{val})"
+                )
+        ],
+        [
+            InlineKeyboardButton
+                (
                     "65 %", callback_data=f"set(accuracy|0.65|{chat_id}|{val})"
                 )
         ],
@@ -1601,14 +1607,14 @@ async def cb_about(bot, update: CallbackQuery):
     text=f"<i><u>Bot's Status</u></i>\n"
     text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
     text+=f"\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
-    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/LXRBOTSGROUP">@LXRBOTSGROUP</a>\n"""
-    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/LXR-YOUTUBER-AMAL/Auto-Filter-Bot-V2">Source</a>"""
+    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/FM_FilmMania">@FM_Admin_owner</a>\n"""
+    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/botfilters/filmmania">Source</a>"""
 
     buttons = [
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/malayalammoviesmmms"
+                    "My Dev ⚡", url="https://t.me/FM_Admin_owner"
                 ),
                 
             InlineKeyboardButton
@@ -1639,10 +1645,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/malayalammoviesmmms'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/LXR-YOUTUBER-AMAL/Auto-Filter-Bot-V2')
+            InlineKeyboardButton('My Dev 🤵🏾', url='https://t.me/FM_Admin_owner'),
+            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/botfilters/filmmania')
         ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/LXRBOTSGROUP')
+            InlineKeyboardButton('Support 🛠', url='https://t.me/FM_FilmMania')
         ],[
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
@@ -1659,7 +1665,7 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "help":
         buttons = [[
-            InlineKeyboardButton('Home ⚡', callback_data='start'),
+            InlineKeyboardButton('Home 🏚️', callback_data='start'),
             InlineKeyboardButton('About 🚩', callback_data='about')
         ],[
             InlineKeyboardButton('Close 🔐', callback_data='close')
@@ -1677,7 +1683,7 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('Home ⚡', callback_data='start'),
+            InlineKeyboardButton('Home 🏚️', callback_data='start'),
             InlineKeyboardButton('Close 🔐', callback_data='close')
         ]]
         
